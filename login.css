@@ -1,0 +1,58 @@
+
+   
+    
+    @media (min-width: 768px) {
+    .gradient-form {
+    height: 100vh !important;
+    }
+    }
+    @media (min-width: 769px) {
+    .gradient-custom-2 {
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+    }
+    }
+    .form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: rgb(153, 68, 68);
+        opacity: 1; /* Firefox */
+}
+
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: rgb(153, 68, 68);
+}
+
+.form-control::-ms-input-placeholder { /* Microsoft Edge */
+    color: rgb(153, 68, 68);
+}
+    .form-outline {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5em;
+        border-radius: 25px;
+        padding: 0.6em;
+        border: none;
+        outline: none;
+        color: rgb(255, 0, 0);
+        background-color: #ff0000;
+        box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+        background: none;
+        border: none;
+        outline: none;
+        width: 100%;
+        color: #ff0000;
+    
+    }
+    .col-lg-6{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 230px;
+        
+        
+    }
+    body{background-image: url(teslacar.png);
+        background-size: cover;
+        background-position: center ,center;
+        
+    }
